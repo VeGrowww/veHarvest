@@ -1,4 +1,4 @@
-import "./App.css";
+
 // import React from 'react'
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
