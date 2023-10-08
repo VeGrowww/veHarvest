@@ -1,8 +1,7 @@
-import { ImageAnnotatorClient } from "@google-cloud/vision";
+const { ImageAnnotatorClient } = require("@google-cloud/vision");
 
-const path =
+process.env.GOOGLE_APPLICATION_CREDENTIALS =
   "/Users/saitejsunkara/Desktop/Harvard/VeGrowww/server/keys/config.json";
-process.env.GOOGLE_APPLICATION_CREDENTIALS = path;
 
 async function getAnswers() {
   try {
