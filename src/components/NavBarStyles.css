@@ -35,3 +35,8 @@
 .title-container {
   text-align: center;
 }
+
+.navbar {
+  border: 1px solid black;
+  border-radius: 5px;
+}

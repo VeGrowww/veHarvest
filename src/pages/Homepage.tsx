@@ -12,7 +12,7 @@ function Form1(props: FormProps) {
       <hr />
       <div>
         <input type="file" id="field1" name="field1" />
-        <input type="file" id="field1" name="field1" />
+        <input type="file" id="field4" name="field4" />
         <br />
         <br />
       </div>
@@ -30,7 +30,7 @@ function Form2(props: FormProps) {
       <hr />
       <div>
         <input type="file" id="field2" name="field2" />
-        <input type="file" id="field2" name="field2" />
+        <input type="file" id="field5" name="field5" />
         <br />
         <br />
       </div>
@@ -48,7 +48,7 @@ function Form3(props: FormProps) {
       <hr />
       <div>
         <input type="file" id="field3" name="field3" />
-        <input type="file" id="field3" name="field3" />
+        <input type="file" id="field6" name="field6" />
         <br />
         <br />
       </div>
