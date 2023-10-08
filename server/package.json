@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VeGrowww",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.0.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "nodemon": "^3.0.1",
+    "npm": "^10.2.0"
+  }
+}
