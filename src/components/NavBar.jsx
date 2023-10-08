@@ -1,19 +1,19 @@
 import React from "react";
-import styles from "./NavBar.module.css";
+import "./NavBarStyles.css"; // Import the new CSS file
 
 export default function NavBar() {
   return (
-    <div className={styles.navbar}>
-      <a className={styles.navElements} href="#">
+    <div className="navbar">
+      <a className="navElements" href="#">
         Home
       </a>
-      <a className={styles.navElements} href="#">
+      <a className="navElements" href="#">
         About
       </a>
-      <a className={styles.navElements} href="#">
+      <a className="navElements" href="#">
         Services
       </a>
-      <a className={styles.navElements} href="#">
+      <a className="navElements" href="#">
         Contact
       </a>
     </div>
