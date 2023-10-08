@@ -1,0 +1,12 @@
+.main {
+  background-color: rgb(209, 231, 99);
+  height: calc(100vh - 5rem);
+}
+
+.plant-container {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  column-gap: 10px;
+  justify-content: space-between;
+}

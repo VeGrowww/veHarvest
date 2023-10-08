@@ -4,4 +4,5 @@ const seedPhrase =
 
 const veChainTestnetUrl = "http://127.0.0.1:8669";
 
-export { seedPhrase, veChainTestnetUrl };
+const PRIVATE_KEY = "0xFc00B15788F2cD2d32C31e4bbD0599257A4313B9";
+export { seedPhrase, veChainTestnetUrl, PRIVATE_KEY };

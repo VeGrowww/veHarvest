@@ -1,0 +1,67 @@
+/* Styles for the upload form container */
+.upload-form {
+  /* Add your styles here */
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+/* Styles for the product container */
+.product-container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid green;
+  border-radius: 5px;
+  height: 600px;
+  width: 300px;
+}
+
+/* Styles for the product information section */
+.product-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Styles for the product image */
+.product-image {
+  flex: 1;
+  height: 80px;
+  width: 80px;
+}
+
+/* Styles for the product title */
+.product-title {
+  flex: 3;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the upload form container */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: space-between;
+  height: 500px;
+}
+
+/* Styles for the file input */
+.file-input {
+  padding: 20px;
+}
+
+/* Styles for the upload button */
+.upload-button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: rgb(107, 170, 14);
+}

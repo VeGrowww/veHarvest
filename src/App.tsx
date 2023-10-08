@@ -1,12 +1,10 @@
-
 // import React from 'react'
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Homepage from "./pages/Homepage";
+import NavBar from "./components/NavBar.jsx";
+import Homepage from "./pages/Homepage1";
 import About from "./pages/About";
 
 function App() {
-  // return <>{/* <NavBar /> */}</>;
   return (
     <BrowserRouter>
       <NavBar />
