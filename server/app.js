@@ -90,7 +90,7 @@ app.use(bodyParser.json());
             if(fruit_size<50 || fruit_size>70) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==21) {
@@ -107,7 +107,7 @@ app.use(bodyParser.json());
             if(fruit_size<50 || fruit_size>70) {
                 points-=20;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==28) {
@@ -124,7 +124,7 @@ app.use(bodyParser.json());
             if(fruit_size<50 || fruit_size>70) {
                 points-=40;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==28) {
@@ -141,7 +141,7 @@ app.use(bodyParser.json());
             if(fruit_size<50 || fruit_size>70) {
                 points-=20;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else {
@@ -158,7 +158,7 @@ app.use(bodyParser.json());
             if(fruit_size<50 || fruit_size>70) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Tomato! Mother Earth's Gratitude: ", points: points/40});
         }
     }
   });
@@ -189,7 +189,7 @@ app.use(bodyParser.json());
             if(height<300 || height>1000) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==21) {
@@ -206,7 +206,7 @@ app.use(bodyParser.json());
             if(height<300 || height>1000) {
                 points-=20;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==28) {
@@ -223,7 +223,7 @@ app.use(bodyParser.json());
             if(height<300 || height>1000) {
                 points-=40;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else {
@@ -240,7 +240,7 @@ app.use(bodyParser.json());
             if(height<300 || height>1000) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
   });
@@ -271,7 +271,7 @@ app.use(bodyParser.json());
             if(height<406 || height>610) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==21) {
@@ -288,7 +288,7 @@ app.use(bodyParser.json());
             if(height<406 || height>610) {
                 points-=20;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else if(week_number==28) {
@@ -305,7 +305,7 @@ app.use(bodyParser.json());
             if(height<406 || height>610) {
                 points-=40;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
     else {
@@ -322,7 +322,7 @@ app.use(bodyParser.json());
             if(height<300 || height>1000) {
                 points-=10;
             }
-            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points});
+            res.send({status: 200, message: "Well Done! You've Grown Lettuce! Mother Earth's Gratitude: ", points: points/40});
         }
     }
   });
