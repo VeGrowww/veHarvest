@@ -1,7 +1,7 @@
 // import React from 'react'
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar.jsx";
-import Homepage from "./pages/Homepage1";
+import Homepage from "./pages/Homepage.js";
 import About from "./pages/About";
 
 function App() {

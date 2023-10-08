@@ -1,6 +1,9 @@
 .main {
   background-color: rgb(209, 231, 99);
   height: calc(100vh - 5rem);
+  margin-top: 10px;
+  border: 1px black solid;
+  border-radius: 5px;
 }
 
 .plant-container {

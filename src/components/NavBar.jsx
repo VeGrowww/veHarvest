@@ -8,13 +8,10 @@ export default function NavBar() {
       <ul className="nav-list">
         <li className="nav-item">
           <NavLink to="/" className="nav-link">
-            Home
+            <div class="title-container">
+              <h1 class="title">Ve-Harvest</h1>
+            </div>
           </NavLink>
-        </li>
-        <li className="nav-item">
-          <div class="title-container">
-            <h1 class="title">Ve-Harvest</h1>
-          </div>
         </li>
         <li className="nav-item">
           <NavLink to="/about" className="nav-link">
